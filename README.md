@@ -26,3 +26,5 @@ data/           Generated JSON files
 2. Run scripts in order: fetch_articles.py, clean_text.py, build_embeddings.py, build_recommendations.py
 3. Copy data/recommendations.json into extension/
 4. Load extension/ as an unpacked extension in Chrome (chrome://extensions, Developer mode, Load unpacked)
+
+![Screenshot](screenshot.png)
