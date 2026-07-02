@@ -1,4 +1,4 @@
-# Stanford Daily Recommender
+# Related Stories for The Stanford Daily
 
 A Chrome extension that adds a "You Might Also Like" section to Stanford Daily articles, using text embeddings to recommend similar stories — built entirely from article content rather than user behavior data.
 
@@ -27,4 +27,5 @@ data/           Generated JSON files
 3. Copy data/recommendations.json into extension/
 4. Load extension/ as an unpacked extension in Chrome (chrome://extensions, Developer mode, Load unpacked)
 
+## Final Product
 ![Screenshot](screenshot.png)
