@@ -1,0 +1,56 @@
+#sd-recommender-box {
+  margin-top: 32px;
+  padding: 20px;
+  border-top: 2px solid #8C1515;
+  background-color: #f9f8f6;
+  font-family: -apple-system, sans-serif;
+}
+
+#sd-recommender-box h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #2e2d29;
+}
+
+#sd-recommender-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+}
+
+#sd-recommender-box li {
+  margin: 0;
+}
+
+.sd-rec-link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+}
+
+.sd-rec-link img {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  background-color: #e5e3de;
+}
+
+.sd-rec-link span {
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  color: #2e2d29;
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+.sd-rec-link:hover span {
+  color: #8C1515;
+  text-decoration: underline;
+}

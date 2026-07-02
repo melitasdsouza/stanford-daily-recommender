@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Stanford Daily Recommender",
+  "version": "1.0",
+  "description": "Shows related articles while reading The Stanford Daily",
+  "content_scripts": [
+    {
+      "matches": ["https://stanforddaily.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["recommendations.json"],
+      "matches": ["https://stanforddaily.com/*"]
+    }
+  ]
+}
